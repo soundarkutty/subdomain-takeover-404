@@ -26,4 +26,5 @@ chmod +777 install.sh
 
 For Refernce:
 https://github.com/EdOverflow/can-i-take-over-xyz
+
 https://securitytrails.com/blog/subdomain-takeover-tips
