@@ -4,7 +4,7 @@ Automation for subdomain takeover for mass domain in  bug bounty.
 Pre-Requisites
  go tool Version latest should be installed  Go 1.14 In your Machine.
  
-Requirnment
+# Requirnment
    * Subfinder
    * Assetfinder
    * Amass
@@ -13,12 +13,17 @@ Requirnment
 
 Run install.sh and it will install all the requirnments
 
-#Installation
+# Installation
 git clone https://github.com/soundarkutty/subdomain-takeover.git
 
 chmod +777 install.sh
 
 ./install.sh
 
-Usage
+# Usage
+
 ./takeover.sh domainname
+
+For Refernce:
+https://github.com/EdOverflow/can-i-take-over-xyz
+https://securitytrails.com/blog/subdomain-takeover-tips
