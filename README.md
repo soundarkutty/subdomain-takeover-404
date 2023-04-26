@@ -9,7 +9,6 @@ Pre-Requisites
    * Subfinder
    * Assetfinder
    * Amass
-   * SUBZY
    * SUBJACK
 
 Run install.sh and it will install all the requirnments
