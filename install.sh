@@ -3,7 +3,7 @@ read -p 'This script will only some tools and you have to manually check all the
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 
 echo "Installing Assetfinder"
-go get -u github.com/tomnomnom/assetfinder
+go install github.com/tomnomnom/assetfinder@latest
 sudo ln -s ~/go/bin/assetfinder /usr/bin/
 echo "done Installing Assetfinder"
 
@@ -23,13 +23,13 @@ echo "done Installing Subfinder"
 
 echo -e "\n-----------------------INSTALLING for Subdomain takeover tool------------------------"
 echo "Installing subjack"
-go get -v github.com/haccer/subjack
+go install -v github.com/haccer/subjack@latest
 sudo ln -s ~/go/bin/assetfinder /usr/bin/
 echo "done Installing subjack"
 
 
 echo "Installing subzy"
-go install -v github.com/lukasikic/subzy
+go install -v github.com/LukaSikic/subzy@latest
 sudo ln -s ~/go/bin/assetfinder /usr/bin/
 echo "done Installing subzy"
 
