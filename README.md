@@ -30,3 +30,4 @@ For Refernce:
 https://github.com/EdOverflow/can-i-take-over-xyz
 
 https://securitytrails.com/blog/subdomain-takeover-tips
+ For subjack try adding fingerprint.json  https://github.com/haccer/subjack/issues/94
