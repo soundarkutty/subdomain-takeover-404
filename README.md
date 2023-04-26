@@ -1,4 +1,4 @@
-# subdomain-takeover
+# subdomain-takeover.
 Automation for subdomain takeover for mass domain in  bug bounty.
 
 Pre-Requisites
