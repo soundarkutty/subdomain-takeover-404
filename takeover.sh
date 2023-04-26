@@ -22,7 +22,5 @@ sort -u subs.txt -o $1.txt
 echo -e "\e[1;34mStarting Subdomain takerover starts \e[0m"
 echo "subjack"
 subjack -w $1.txt -c /root/fingerprints.json -ssl -t 100 -v
-echo "subzy"
-subzy -targets $1.txt 
 rm subs.txt 
 rm $1.txt
